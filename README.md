@@ -12,6 +12,7 @@ venv\Scripts\activate
 
 ## File Structure
 > [!NOTE]  
+>```bash
 > project/
 >    │
 >    ├── core/
@@ -40,10 +41,11 @@ venv\Scripts\activate
 >    │   ├── test_generator.py
 >    │   ├── test_preprocessor.py
 >    │   ├── test_pipeline.py
->   │
+>    │
 >    ├── docs/
 >    │   ├── architecture.md
 >    │   ├── usage_guide.md
 >    │
 >    ├── README.md
 >    ├── requirements.txt
+>```
