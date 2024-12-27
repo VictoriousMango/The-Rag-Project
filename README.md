@@ -21,7 +21,7 @@ venv\Scripts\activate
 >    │   ├── preprocessor.py
 >    │   ├── postprocessor.py
 >    │   ├── embedding.py
->    │
+>    │lj
 >    ├── utils/
 >    │   ├── config.py
 >    │   ├── utils.py
@@ -49,3 +49,17 @@ venv\Scripts\activate
 >    ├── README.md
 >    ├── requirements.txt
 >```
+
+## Testing Individual Files
+Sample Run Commands
+```
+cd .\codeAssets\
+python -m core.retriever
+```
+## Showing Logs in Web Browser 
+```
+python -m http.server
+```
+> [!NOTE]
+> There should be an HTML file, which should be responsible for showing logs in some format, 
+> name of the HTML should be ```index.html```.
