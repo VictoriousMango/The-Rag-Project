@@ -9,6 +9,10 @@ python -m venv venv
 ```
 venv\Scripts\activate
 ```    
+### To deactivate virtual environment
+```
+venv\Scripts\deactivate
+```    
 
 ## File Structure
 > [!NOTE]  
